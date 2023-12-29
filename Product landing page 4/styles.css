@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50; /* Dark gray header background */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #3498db; /* Light blue on hover */
+}
+
+.hero {
+    background: url('images/workout\ transform.jpg') center/cover no-repeat; /* Add background image */
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ebf1f5; /* Light blue heading color */
+}
+
+
+
+.buy-button {
+    background-color: #3498db; /* Light blue button background */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.product-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex: 1; /* Add flex property to make each card equally distribute space */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    color: #333;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* ... Other styles remain unchanged ... */
+
+.featured-products {
+    background-color: #eaeaea; /* Light gray background for the Featured Products section */
+    padding: 3rem 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Add styles for the Featured Products section */
+.featured-products .products {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.featured-products .product-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured-products .product-card:hover {
+    transform: scale(1.05);
+}
+
+.featured-products .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.featured-products .product-card h3 {
+    color: #333;
+}
+
+.featured-products .product-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    background-image: url('testimonial-bg.jpg');
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    color: #34495e; /* Dark gray for text in the testimonial block */
+}
+
+.testimonial cite {
+    color: #95a5a6; /* Light gray for customer names */
+    font-weight: bold;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex: 1; /* Add flex property to make each card equally distribute space */
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+}
+
+.price-card h3 {
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    color: #3498db;
+}
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.price-card ul li {
+    color: #555;
+    margin: 5px 0;
+}
+
+.buy-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+}
